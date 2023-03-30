@@ -8,17 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		833A405729D2DFFF0083A9F8 /* TCAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A405629D2DFFF0083A9F8 /* TCAApp.swift */; };
-		833A405929D2DFFF0083A9F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A405829D2DFFF0083A9F8 /* ContentView.swift */; };
 		833A405B29D2E0010083A9F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833A405A29D2E0010083A9F8 /* Assets.xcassets */; };
 		833A405E29D2E0010083A9F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833A405D29D2E0010083A9F8 /* Preview Assets.xcassets */; };
+		833A406629D2E0A70083A9F8 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 833A406529D2E0A70083A9F8 /* ComposableArchitecture */; };
+		833A406C29D3DF920083A9F8 /* 01-Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A406B29D3DF920083A9F8 /* 01-Counter.swift */; };
+		833A406F29D3DFD10083A9F8 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A406E29D3DFD10083A9F8 /* AboutView.swift */; };
+		833A407129D3E6480083A9F8 /* 02-TwoCounters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A407029D3E6480083A9F8 /* 02-TwoCounters.swift */; };
+		833A407329D3FDF50083A9F8 /* 03-Bindings-Basics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A407229D3FDF50083A9F8 /* 03-Bindings-Basics.swift */; };
+		833A407529D408620083A9F8 /* 04-Bindings-Forms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A407429D408620083A9F8 /* 04-Bindings-Forms.swift */; };
+		833A407729D40FA30083A9F8 /* 05-OptionalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A407629D40FA30083A9F8 /* 05-OptionalState.swift */; };
+		833A407929D417910083A9F8 /* 06-SharedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A407829D417910083A9F8 /* 06-SharedState.swift */; };
+		83B3F76329D435EF00E9F79F /* 05-OptionalState2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B3F76229D435EF00E9F79F /* 05-OptionalState2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		833A405329D2DFFF0083A9F8 /* TCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		833A405629D2DFFF0083A9F8 /* TCAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAApp.swift; sourceTree = "<group>"; };
-		833A405829D2DFFF0083A9F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		833A405A29D2E0010083A9F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		833A405D29D2E0010083A9F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		833A406B29D3DF920083A9F8 /* 01-Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01-Counter.swift"; sourceTree = "<group>"; };
+		833A406E29D3DFD10083A9F8 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		833A407029D3E6480083A9F8 /* 02-TwoCounters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02-TwoCounters.swift"; sourceTree = "<group>"; };
+		833A407229D3FDF50083A9F8 /* 03-Bindings-Basics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03-Bindings-Basics.swift"; sourceTree = "<group>"; };
+		833A407429D408620083A9F8 /* 04-Bindings-Forms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "04-Bindings-Forms.swift"; sourceTree = "<group>"; };
+		833A407629D40FA30083A9F8 /* 05-OptionalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "05-OptionalState.swift"; sourceTree = "<group>"; };
+		833A407829D417910083A9F8 /* 06-SharedState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "06-SharedState.swift"; sourceTree = "<group>"; };
+		83B3F76229D435EF00E9F79F /* 05-OptionalState2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "05-OptionalState2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				833A406629D2E0A70083A9F8 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +68,14 @@
 			isa = PBXGroup;
 			children = (
 				833A405629D2DFFF0083A9F8 /* TCAApp.swift */,
-				833A405829D2DFFF0083A9F8 /* ContentView.swift */,
+				833A406B29D3DF920083A9F8 /* 01-Counter.swift */,
+				833A407029D3E6480083A9F8 /* 02-TwoCounters.swift */,
+				833A407229D3FDF50083A9F8 /* 03-Bindings-Basics.swift */,
+				833A407429D408620083A9F8 /* 04-Bindings-Forms.swift */,
+				833A407629D40FA30083A9F8 /* 05-OptionalState.swift */,
+				83B3F76229D435EF00E9F79F /* 05-OptionalState2.swift */,
+				833A407829D417910083A9F8 /* 06-SharedState.swift */,
+				833A406D29D3DFCA0083A9F8 /* Internal */,
 				833A405A29D2E0010083A9F8 /* Assets.xcassets */,
 				833A405C29D2E0010083A9F8 /* Preview Content */,
 			);
@@ -65,6 +88,14 @@
 				833A405D29D2E0010083A9F8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		833A406D29D3DFCA0083A9F8 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				833A406E29D3DFD10083A9F8 /* AboutView.swift */,
+			);
+			path = Internal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +114,9 @@
 			dependencies = (
 			);
 			name = TCA;
+			packageProductDependencies = (
+				833A406529D2E0A70083A9F8 /* ComposableArchitecture */,
+			);
 			productName = TCA;
 			productReference = 833A405329D2DFFF0083A9F8 /* TCA.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +145,9 @@
 				Base,
 			);
 			mainGroup = 833A404A29D2DFFF0083A9F8;
+			packageReferences = (
+				833A406429D2E0A70083A9F8 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 833A405429D2DFFF0083A9F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +174,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				833A405929D2DFFF0083A9F8 /* ContentView.swift in Sources */,
+				83B3F76329D435EF00E9F79F /* 05-OptionalState2.swift in Sources */,
 				833A405729D2DFFF0083A9F8 /* TCAApp.swift in Sources */,
+				833A407329D3FDF50083A9F8 /* 03-Bindings-Basics.swift in Sources */,
+				833A407929D417910083A9F8 /* 06-SharedState.swift in Sources */,
+				833A406C29D3DF920083A9F8 /* 01-Counter.swift in Sources */,
+				833A406F29D3DFD10083A9F8 /* AboutView.swift in Sources */,
+				833A407129D3E6480083A9F8 /* 02-TwoCounters.swift in Sources */,
+				833A407529D408620083A9F8 /* 04-Bindings-Forms.swift in Sources */,
+				833A407729D40FA30083A9F8 /* 05-OptionalState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +383,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		833A406429D2E0A70083A9F8 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		833A406529D2E0A70083A9F8 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 833A406429D2E0A70083A9F8 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 833A404B29D2DFFF0083A9F8 /* Project object */;
 }
